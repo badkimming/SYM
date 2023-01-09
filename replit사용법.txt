@@ -1,0 +1,19 @@
+런 사용방법 (컨트롤 +엔터)
+1.파일 없다고 뜰때 왼쪽 Files-new folder옆 점3개 클릭-> 영어로 숨겨진 파일 찾기 클릭 -> .replit 파일에서 형식으로 변경
+
+C 언어
+run = "clang-7 -pthread -lm -o main main.c \n ./main"
+
+JAVA 
+run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . Main.java \n java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main"
+
+python 
+run="python main.py"
+
+HTML CSS JS 
+run = "index.html"
+
+변경중 (main)은 파일 이름으로 
+
+
+2.아래 console창에서 (파일이름).(확장자) 꼴로 실행
